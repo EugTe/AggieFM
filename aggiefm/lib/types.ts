@@ -6,7 +6,7 @@ export interface User {
 }
 
 export interface Song {
-  name: string
+  title: string
   artist: string
   album: string
   coverUrl: string
