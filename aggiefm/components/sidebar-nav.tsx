@@ -51,7 +51,7 @@ export function SidebarNav() {
                   className={cn(
                     "w-full justify-start gap-3",
                     !isExpanded && "justify-center px-2",
-                    isActive && "bg-accent/10 text-accent",
+                    isActive && "bg-accent/50 text-accent-foreground",
                   )}
                 >
                   <Icon className="h-5 w-5 shrink-0" />
